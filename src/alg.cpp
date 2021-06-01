@@ -40,7 +40,7 @@ class TPQueue {
     }
     arr[finale] = item;
     end = forward(end);
-    counr++;
+    count++;
   }
   T pop() {
     assert(count > 0);
