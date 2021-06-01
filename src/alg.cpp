@@ -33,7 +33,7 @@ class TPQueue {
   }
   void push(const T &item) {
     assert(count < size);
-    int finale  end;
+    int finale = end;
     while (begin != finale && item.prior > arr[back(finale)].prior) {
       arr[finale] = arr[back(finale)];
       finale = back(finale);
